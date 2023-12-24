@@ -1,0 +1,32 @@
+:root{
+    --dark: #020902;
+    --light: #fff;
+    --accent: #a40000;
+}
+
+body {
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+header, footer {
+    background-image: linear-gradient(gray, var(--dark), gray, var(--dark), gray, var(--dark), gray, var(--dark) );
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 2em;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    margin-right: 2%;
+}
+
+img (
+    /*needs size maz*/
+
+)
