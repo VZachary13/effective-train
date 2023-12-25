@@ -10,24 +10,38 @@
 <body>
     <header>
         <nav>
-            <a href="#about">About Me</a>
-            <a href="#work">Work</a>
-            <a href="#contacts">Contacts</a>
+            <a id="link1" href="#about">About Me</a>
+            <a id="link2" href="#work">Work</a>
+            <a id="link3" href="#contacts">Contacts</a>
         </nav>
     </header>
-    <section>
-        <h1>Vinicius Zachary</h1>
-        <img id="profile" src="./assets/images/profile.jpg">
-    </section>
-    <section  id="about">
-        <h2>About Me</h2>
-    </section>
-    <section id="work">
-        <h2>Work</h2>
-        <img>
-    </section>
-    <section id="contacts">
-        <h2>Contacts</h2>
-    </section>
+    <div id="box"> 
+        <section id="profile">
+            <h1>Vinicius Zachary</h1>
+            <img src="./assets/images/profile.jpg">
+        </section>
+        <section  id="about">
+            <h2>About Me</h2>
+            <p>Vinicius Zachary is an aspiring Full-Stack Web Developer with a background in customer service and physical security. 
+                Currently employed as a security professional, he seeks to move closer towards a more flexible lifestyle.</p>
+        </section>
+        <section id="work">
+            <h2>Work</h2>
+            <section class="work-container"> 
+                <a href="https://vzachary13.github.io/fuzzy-octo-spoon">
+                    <img src="./assets/images/challengeOne.jpg" alt="Vinicius Zachary's first project which 
+                    showcases his ability to refactor hideous code with limited html or css knowledge">
+                </a>
+                <h3>Code Refactor</h3>
+            </section>
+        </section>
+        <section id="contacts">
+            <h2>Contacts</h2>
+            <ul>
+                <li>Phone: 520-840-6575</li>
+                <li>Email: Vinicius.Zachary@gmail.com</li>
+            </ul>
+        </section>
+    </div>
 </body>
 </html>
