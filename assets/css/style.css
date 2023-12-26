@@ -21,7 +21,10 @@ header, div{
     color: var(--light);
 }
 
-
+header {
+    position: fixed;
+    top: 0;
+}
 nav{
     display: flex;
     justify-content: right;
@@ -44,6 +47,10 @@ nav a {
     border-radius: 1px 25px 1px 25px;
 }
 
+nav a:link {
+    transition: 0.5s box-shadow;
+}
+
 nav a:link:hover{
     box-shadow: 0 0 5px 5px gray;
 }
@@ -51,6 +58,10 @@ nav a:link:hover{
 h1 {
     float: left;
     font-size: 900%;
+}
+
+h2{
+    padding-top: 2%;
 }
 
 a img {
