@@ -3,7 +3,9 @@
     --light: #fff;
     --accent: #a40000;
 }
-
+html {
+    height: 100%;
+}
 * {
     font-family: 'Times New Roman', Times, serif;
 }
@@ -25,6 +27,16 @@ header {
     position: fixed;
     top: 0;
 }
+
+footer{
+    background-image: linear-gradient(gray, var(--dark), gray, var(--dark), gray, var(--dark), gray, var(--dark) , gray, var(--dark) );
+    display: flex;
+    color: var(--light);
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1%;
+}
+
 nav{
     display: flex;
     justify-content: right;
@@ -62,6 +74,16 @@ h1 {
 
 h2{
     padding-top: 2%;
+}
+
+h4{
+    margin-bottom: 0;
+    margin-top: 1%;
+}
+
+h5 {
+    margin-top: 0;
+    margin-bottom: 1%;
 }
 
 a img {
