@@ -127,15 +127,10 @@ a img {
     max-width: 600px;
 }
 
-.work-container:hover > h3 {
-    display: block;
-}
-
 .work-container h3{
-    display: none;
     width: 100%;
     background-image: radial-gradient(black 0%, transparent 75%);
-    position: absolute;
+    position: relative;
     bottom: 2px;
     left: 0;
     margin: 0;
@@ -155,6 +150,10 @@ a img {
     .work-container {
         max-width: 350px;
         padding-top: 5px;
+    }
+
+    .work-container h3 {
+        position: relative;
     }
 }
 
