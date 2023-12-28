@@ -6,11 +6,13 @@ Welcome to my professional portfolio! This was created as a way to organize all 
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+Webpage has several links. if something seems like it should be a link it probably is.<br>
+-navigation bar at the top follows you up and down the page for easy access<br>
+-buttons on navigation bar allow quick access to the section you want to see<br>
+-project images are also links to the deployed project<br>
+-names of popular platforms are links to my profile on those platforms<br>
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
-
-![alt text](assets/images/screenshot.png)
+![Webpage Screenshot](./assets/images/screenshot01.jpg)
 
 ## License
 
