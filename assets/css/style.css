@@ -30,7 +30,7 @@ header {
 }
 
 footer{
-    background-color: gray;
+    background-color: #3d3d3d;
     display: flex;
     color: var(--light);
     align-items: center;
@@ -123,6 +123,10 @@ a img {
     max-width: 500px;
 }
 
+#First {
+    max-width: 600px;
+}
+
 .work-container:hover > h3 {
     display: block;
 }
@@ -137,4 +141,47 @@ a img {
     margin: 0;
     padding: 1;
     color: var(--light);
+}
+
+@media screen and (max-width: 1439px){
+    h1{
+        font-size: 450%;
+    }
+
+    #profile img {
+        max-width: 350px;
+    }
+
+    .work-container {
+        max-width: 350px;
+        padding-top: 5px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    nav a {
+        padding: 1.7%;
+    }
+
+    h1 {
+        font-size: 250%;
+    }
+
+    #profile img {
+        max-width: 160px;
+    }
+
+    .work-container {
+        max-width: 280px;
+        padding: 10px;
+    }
+
+    #First {
+        padding-left: 0;
+    }
+
+    #container {
+        justify-content: center;
+
+    }
 }
