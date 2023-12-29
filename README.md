@@ -11,10 +11,10 @@ Welcome to my professional portfolio! This was created as a way to organize all 
 
 Webpage has several links. If something seems like it should be a link it probably is.<br>
 
-- - - -Navigation bar at the top follows you up and down the page for easy access<br>
-- - - -Buttons on navigation bar allow quick access to the section you want to see<br>
-- - - -Project images are also links to the deployed project<br>
-- - - -Names of popular platforms are links to my profile on those platforms<br>
+- -Navigation bar at the top follows you up and down the page for easy access<br>
+- -Buttons on navigation bar allow quick access to the section you want to see<br>
+- -Project images are also links to the deployed project<br>
+- -Names of popular platforms are links to my profile on those platforms<br>
 
 ## License
 
